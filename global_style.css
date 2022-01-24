@@ -16,6 +16,7 @@ html {
   --secondary-text-color: white;
   --highlight-text-color: #24a19c;
   --dark-text-color: #1c1d25;
+  --light-text-color: #515366;
 }
 
 /* Container */
@@ -47,6 +48,7 @@ header {
   grid-row: 1 / 2;
   font-weight: bold;
   box-shadow: 0px 2px 10px 2px rgb(238, 235, 235);
+  padding: 1rem 2rem;
 }
 
 .header-title {
@@ -74,6 +76,7 @@ li {
   margin-top: 5rem;
   font-weight: bold;
   color: var(--dark-text-color);
+  font-size: 1.2rem;
 }
 
 .btn-start:hover {
@@ -87,10 +90,22 @@ li {
   margin-top: 5rem;
 }
 
+.header-topic {
+  margin-left: auto;
+  font-size: 2rem;
+  color: var(--primary-text-color);
+}
+
+.sidebar-title {
+  font-weight: bold;
+  font-size: 2rem;
+  color: var(--primary-text-color);
+}
+
 /* links */
 
 a {
-  color: var(--primary-text-color);
+  color: var(--light-text-color);
   font-weight: bold;
   text-decoration: none;
   cursor: default;
@@ -106,4 +121,14 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.center-content-vertical {
+  display: flex;
+  align-items: center;
+}
+
+.center-content-horizontal {
+  display: flex;
+  justify-content: center;
 }
