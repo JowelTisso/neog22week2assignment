@@ -71,29 +71,245 @@
         </nav>
       </aside>
       <main>
-        <div class="card">
-          <div class="card-img">
-            <img src="https://picsum.photos/350/200" alt="card image" />
-          </div>
-          <div class="card-content">
-            <p class="card-title base-text-style">This is the title</p>
-            <p class="card-sub-title base-text-style">Subtitle</p>
-            <p class="card-description">
-              This is the description of this card which is suppose to be long
-              enough.
-            </p>
-          </div>
-          <div class="card-btn-container">
-            <div class="btn-primary-container">
-              <button class="card-btn-primary base-text-style">READ</button>
-              <button class="card-btn-primary base-text-style mg-left-2">
-                BOOKMARK
-              </button>
+        <div class="card-wrapper">
+          <!-- Basic Card -->
+          <div class="card">
+            <div class="card-img">
+              <img src="https://picsum.photos/350/200" alt="card image" />
             </div>
-            <div class="btn-secondary-container mg-left-2">
-              <i class="far fa-heart fa-lg"></i>
-              <i class="fas fa-share-alt fa-lg"></i>
-              <i class="fas fa-ellipsis-v fa-lg"></i>
+            <div class="card-content">
+              <p class="card-title base-text-style">Basic Variant</p>
+              <p class="card-sub-title base-text-style">Card</p>
+              <p class="card-description">
+                Cards contain content and actions about a single subject.
+              </p>
+            </div>
+            <div class="card-btn-container">
+              <div class="btn-primary-container">
+                <button class="hover-effect card-btn-primary base-text-style">
+                  READ
+                </button>
+                <button
+                  class="hover-effect card-btn-primary base-text-style mg-left-2"
+                >
+                  BOOKMARK
+                </button>
+              </div>
+              <div class="btn-secondary-container mg-left-2">
+                <span class="hover-effect card-btn-secondary center-content">
+                  <i class="far fa-heart fa-lg"></i>
+                </span>
+                <span class="hover-effect card-btn-secondary center-content">
+                  <i class="fas fa-share-alt fa-lg"></i>
+                </span>
+                <span class="hover-effect card-btn-secondary center-content">
+                  <i class="fas fa-ellipsis-v fa-lg"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Basic w/ Text over Media -->
+
+          <div class="card card-basic-w-text">
+            <div class="card-img">
+              <img src="https://picsum.photos/350/200" alt="card image" />
+            </div>
+            <div class="card-content">
+              <p class="card-title base-text-style title-over-img">
+                Basic with text over media
+              </p>
+              <p class="card-sub-title base-text-style sub-title-over-img">
+                Card
+              </p>
+              <p class="card-description">
+                Cards contain content and actions about a single subject.
+              </p>
+            </div>
+            <div class="card-btn-container">
+              <div class="btn-primary-container">
+                <button class="hover-effect card-btn-primary base-text-style">
+                  READ
+                </button>
+                <button
+                  class="hover-effect card-btn-primary base-text-style mg-left-2"
+                >
+                  BOOKMARK
+                </button>
+              </div>
+              <div class="btn-secondary-container mg-left-2">
+                <span class="hover-effect card-btn-secondary center-content">
+                  <i class="far fa-heart fa-lg"></i>
+                </span>
+                <span class="hover-effect card-btn-secondary center-content">
+                  <i class="fas fa-share-alt fa-lg"></i>
+                </span>
+                <span class="hover-effect card-btn-secondary center-content">
+                  <i class="fas fa-ellipsis-v fa-lg"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Basic Card w header -->
+
+          <div class="card card-w-header">
+            <div class="mg-top-7">
+              <img
+                class="no-border-radius"
+                src="https://picsum.photos/350/200"
+                alt="card image"
+              />
+            </div>
+            <div class="card-content-header">
+              <p class="card-title base-text-style title-header">
+                Basic card with header
+              </p>
+              <p class="card-sub-title base-text-style sub-title-header">
+                Card
+              </p>
+              <p class="card-description">
+                Cards contain content and actions about a single subject.
+              </p>
+            </div>
+            <div class="card-btn-container">
+              <div class="btn-primary-container">
+                <button class="hover-effect card-btn-primary base-text-style">
+                  READ
+                </button>
+                <button
+                  class="hover-effect card-btn-primary base-text-style mg-left-2"
+                >
+                  BOOKMARK
+                </button>
+              </div>
+              <div class="btn-secondary-container mg-left-2">
+                <span class="hover-effect card-btn-secondary center-content">
+                  <i class="far fa-heart fa-lg"></i>
+                </span>
+                <span class="hover-effect card-btn-secondary center-content">
+                  <i class="fas fa-share-alt fa-lg"></i>
+                </span>
+                <span class="hover-effect card-btn-secondary center-content">
+                  <i class="fas fa-ellipsis-v fa-lg"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Basic w/ only buttons -->
+          <div class="card">
+            <div class="card-img">
+              <img src="https://picsum.photos/350/200" alt="card image" />
+            </div>
+            <div class="card-content">
+              <p class="card-title base-text-style">Basic Variant</p>
+              <p class="card-sub-title base-text-style">Card</p>
+              <p class="card-description">
+                Cards contain content and actions about a single subject.
+              </p>
+            </div>
+            <div class="card-btn-container">
+              <div class="btn-primary-container">
+                <button class="hover-effect card-btn-primary base-text-style">
+                  READ
+                </button>
+                <button
+                  class="hover-effect card-btn-primary base-text-style mg-left-2"
+                >
+                  BOOKMARK
+                </button>
+              </div>
+              <div class="btn-secondary-container mg-left-2 hide-content">
+                <span class="hover-effect card-btn-secondary center-content">
+                  <i class="far fa-heart fa-lg"></i>
+                </span>
+                <span class="hover-effect card-btn-secondary center-content">
+                  <i class="fas fa-share-alt fa-lg"></i>
+                </span>
+                <span class="hover-effect card-btn-secondary center-content">
+                  <i class="fas fa-ellipsis-v fa-lg"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Basic w/ only icons -->
+          <div class="card">
+            <div class="card-img">
+              <img src="https://picsum.photos/350/200" alt="card image" />
+            </div>
+            <div class="card-content">
+              <p class="card-title base-text-style">Basic Variant</p>
+              <p class="card-sub-title base-text-style">Card</p>
+              <p class="card-description">
+                Cards contain content and actions about a single subject.
+              </p>
+            </div>
+            <div class="card-btn-container">
+              <div class="btn-primary-container hide-content">
+                <button class="hover-effect card-btn-primary base-text-style">
+                  READ
+                </button>
+                <button
+                  class="hover-effect card-btn-primary base-text-style mg-left-2"
+                >
+                  BOOKMARK
+                </button>
+              </div>
+              <div class="btn-secondary-container mg-left-2">
+                <span class="hover-effect card-btn-secondary center-content">
+                  <i class="far fa-heart fa-lg"></i>
+                </span>
+                <span class="hover-effect card-btn-secondary center-content">
+                  <i class="fas fa-share-alt fa-lg"></i>
+                </span>
+                <span class="hover-effect card-btn-secondary center-content">
+                  <i class="fas fa-ellipsis-v fa-lg"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Horizontal Image and text card -->
+
+          <div class="card card-horizontal">
+            <div>
+              <img
+                class="card-img-horizontal"
+                src="https://picsum.photos/150/150"
+                alt="card image"
+              />
+            </div>
+            <div class="card-content grow-content">
+              <p class="card-title base-text-style">Basic Variant</p>
+              <p class="card-sub-title base-text-style">Card</p>
+              <p class="card-description hide-container">
+                Cards contain content and actions about a single subject.
+              </p>
+            </div>
+            <div class="card-btn-container grow-content">
+              <div class="btn-primary-container">
+                <button class="hover-effect card-btn-primary base-text-style">
+                  READ
+                </button>
+                <button
+                  class="hover-effect card-btn-primary base-text-style mg-left-2"
+                >
+                  BOOKMARK
+                </button>
+              </div>
+              <div class="btn-secondary-container mg-left-2">
+                <span class="hover-effect card-btn-secondary center-content">
+                  <i class="far fa-heart fa-lg"></i>
+                </span>
+                <span class="hover-effect card-btn-secondary center-content">
+                  <i class="fas fa-share-alt fa-lg"></i>
+                </span>
+                <span class="hover-effect card-btn-secondary center-content">
+                  <i class="fas fa-ellipsis-v fa-lg"></i>
+                </span>
+              </div>
             </div>
           </div>
         </div>

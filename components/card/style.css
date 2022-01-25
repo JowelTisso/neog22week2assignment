@@ -1,23 +1,38 @@
 /* Generic */
-
+:root {
+  --primary-btn-color: #1572a1;
+  --primary-btn-bg-color: white;
+  --secondary-btn-bg-color: rgb(224, 221, 221);
+}
 button {
   border: none;
-  background-color: white;
+  background-color: var(--primary-btn-bg-color);
+  padding: 5px 10px;
 }
 
-/* container */
+/**** Basic card styles ****/
+
+/* Container */
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .card {
-  box-shadow: 0px 2px 10px 2px rgb(238, 235, 235);
-  width: 35rem;
+  box-shadow: 1px 2px 5px 2px rgb(201, 199, 199);
+  width: 32rem;
   border-radius: 5px;
+  margin: 1rem;
 }
 
 .card-content {
   padding: 1.5rem;
+  position: relative;
 }
 
 .card-btn-container {
-  padding: 1.5rem;
+  padding: 1rem;
   display: flex;
   flex-direction: row;
 }
@@ -34,15 +49,15 @@ button {
 img {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-  width: 35rem;
-  height: 22rem;
+  width: 32rem;
+  height: 20rem;
 }
 
 /* typography */
 
 .card-title {
   font-size: 2rem;
-  color: var(--primary-text-color);
+  color: var(--dark-text-color);
 }
 
 .card-sub-title {
@@ -60,7 +75,14 @@ img {
 /* buttons */
 
 .card-btn-primary {
-  color: #1572a1;
+  color: var(--primary-btn-color);
+}
+
+.card-btn-secondary {
+  padding: 1rem;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
 }
 
 /* utils */
@@ -70,5 +92,94 @@ img {
 }
 
 .mg-left-2 {
-  margin-left: 30px;
+  margin-left: 1rem;
+}
+
+.hover-effect:hover {
+  background-color: var(--secondary-btn-bg-color);
+}
+
+/**** Basic card w/ Text over Media  ****/
+
+/* Container */
+
+.title-over-img {
+  position: absolute;
+  top: -6rem;
+  color: var(--secondary-text-color);
+}
+.sub-title-over-img {
+  position: absolute;
+  top: -3rem;
+  color: var(--secondary-text-color);
+}
+
+.card-basic-w-text {
+  height: 35rem;
+}
+
+/**** Basic card w/ header ****/
+
+/* Container */
+
+.card-w-header {
+  position: relative;
+}
+
+.card-content-header {
+  padding: 1.5rem;
+  position: static;
+}
+
+/* Typography */
+
+.title-header {
+  position: absolute;
+  top: 1rem;
+  color: var(--primary-text-color);
+}
+.sub-title-header {
+  position: absolute;
+  top: 4rem;
+  color: var(--primary-text-color);
+}
+
+/* Utils */
+.mg-top-7 {
+  margin-top: 7rem;
+}
+
+.no-border-radius {
+  border-radius: 0;
+}
+
+/**** Basic card w/ only buttons ****/
+
+/* Utils */
+.hide-content {
+  visibility: hidden;
+}
+
+/***** Horizontal Image and text card  *****/
+
+/* Container */
+
+.card-horizontal {
+  display: flex;
+  flex-wrap: wrap;
+  height: 15rem;
+}
+
+.card-img-horizontal {
+  width: 10rem;
+  height: 10rem;
+}
+
+/* Utils */
+.hide-container {
+  display: none;
+}
+
+.grow-content {
+  flex-grow: 1;
 }
