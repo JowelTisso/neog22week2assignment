@@ -1,0 +1,80 @@
+/* Generic */
+:root {
+  --primary-bg-color: rgb(230, 227, 227);
+  --secondary-bg-color: rgb(243, 242, 242);
+  --primary-hover-color: rgb(214, 211, 211);
+  --secondary-hover-color: rgb(189, 185, 185);
+  --icon-bg-color: rgb(158, 156, 156);
+  --icon-hover-color: rgb(133, 130, 130);
+}
+
+/* Container */
+
+.chips-container {
+  height: 20rem;
+  width: 50rem;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 10rem;
+  padding: 2rem;
+}
+
+.chips-wrapper {
+  background-color: var(--secondary-bg-color);
+  margin: 2rem 0;
+  min-height: 5rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.chip {
+  background-color: var(--primary-bg-color);
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  margin-right: 1rem;
+}
+
+.chip:hover {
+  background-color: var(--primary-hover-color);
+}
+
+/* elements */
+
+input,
+input:focus {
+  border: 0;
+  outline: none;
+  background-color: var(--secondary-bg-color);
+  cursor: text;
+}
+
+.light-icon {
+  color: var(--icon-bg-color);
+}
+
+.light-icon:hover {
+  color: var(--icon-hover-color);
+}
+
+/* Typography */
+.chips-title {
+  font-size: 1.5rem;
+  color: var(--light-text-color);
+}
+
+.chips-word {
+  display: inline-block;
+  margin-right: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--light-text-color);
+}
+
+/* Utils */
+
+.shadow {
+  box-shadow: 1px 2px 5px 2px rgba(175, 174, 174, 0.5);
+}
