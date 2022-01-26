@@ -161,22 +161,31 @@ img {
 
 /* Container */
 
-.card-horizontal {
+.card-hz {
   display: flex;
-  flex-wrap: wrap;
-  height: 15rem;
+  min-height: 15rem;
+  position: relative;
 }
 
-.card-img-horizontal {
+.card-img-hz {
   width: 11.5rem;
   height: 10rem;
 }
 
+.card-btn-container-hz {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.card-content-hz {
+  padding-bottom: 5rem;
+}
+
+/* Typography */
+
 /* Utils */
 .hide-container {
   display: none;
-}
-
-.grow-content {
-  flex-grow: 1;
 }

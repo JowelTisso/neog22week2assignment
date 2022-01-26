@@ -118,6 +118,10 @@ a:hover {
   color: var(--highlight-text-color);
 }
 
+.active-link {
+  color: var(--highlight-text-color);
+}
+
 /* Utils */
 
 .center-content {
