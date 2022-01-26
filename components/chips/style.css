@@ -11,7 +11,7 @@
 /* Container */
 
 .chips-container {
-  height: 20rem;
+  min-height: 20rem;
   width: 50rem;
   background-color: white;
   border-radius: 5px;
@@ -22,19 +22,20 @@
 .chips-wrapper {
   background-color: var(--secondary-bg-color);
   margin: 2rem 0;
-  min-height: 5rem;
+  /* min-height: 5rem; */
   border-radius: 5px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 0 2rem;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
 }
 
 .chip {
   background-color: var(--primary-bg-color);
   padding: 0.5rem 1rem;
   border-radius: 2rem;
-  margin-right: 1rem;
+  margin: 5px;
 }
 
 .chip:hover {
@@ -49,6 +50,7 @@ input:focus {
   outline: none;
   background-color: var(--secondary-bg-color);
   cursor: text;
+  margin: 1rem;
 }
 
 .light-icon {
