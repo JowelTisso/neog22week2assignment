@@ -4,6 +4,7 @@
   --primary-btn-bg-color: white;
   --secondary-btn-bg-color: rgb(224, 221, 221);
 }
+
 button {
   border: none;
   background-color: var(--primary-btn-bg-color);
