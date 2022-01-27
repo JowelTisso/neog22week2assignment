@@ -7,10 +7,12 @@ const snackbarMsg = document.querySelector("#snackbar-msg");
 
 btnLeading.addEventListener("click", () => {
   snackbar.className = "snackbar sb-leading show-snackbar";
+  snackbarMsg.className = "snackbar-msg";
 });
 
 btnBaseline.addEventListener("click", () => {
   snackbar.className = "snackbar show-snackbar";
+  snackbarMsg.className = "snackbar-msg";
 });
 
 btnStacked.addEventListener("click", () => {
@@ -20,5 +22,4 @@ btnStacked.addEventListener("click", () => {
 
 closeBtn.addEventListener("click", () => {
   snackbar.className = "snackbar";
-  snackbarMsg.className = "snackbar-msg";
 });
