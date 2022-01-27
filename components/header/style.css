@@ -1,0 +1,42 @@
+@import "../drawer/style.css";
+
+/**** Standard Header ****/
+
+/* Container */
+
+.standard-content {
+  border: 2px solid gray;
+  border-radius: 5px;
+  width: 70%;
+  height: 50rem;
+  overflow: auto;
+  position: relative;
+}
+
+.header-icon-container {
+  margin-left: auto;
+  margin-right: 2rem;
+  display: flex;
+}
+
+/**** Fixed Header ****/
+/* Elements */
+
+.header-fixed {
+  position: sticky;
+  top: 0;
+}
+
+/**** Short Header ****/
+
+/* Elements */
+
+.header-short {
+  width: 25rem;
+  border-end-end-radius: 2.5rem;
+}
+
+/* Typography */
+.hide-title {
+  display: none;
+}
