@@ -1,3 +1,10 @@
+/* Generic */
+
+:root {
+  --primary-header-color: #655d8a;
+  --secondary-header-color: #807b99;
+}
+
 /* Permanent Drawer */
 /* Container */
 
@@ -33,7 +40,6 @@
 /* Element */
 
 .drawer-item {
-  /* background-color: violet; */
   display: flex;
   padding: 1rem 1rem;
   margin: 1rem;
@@ -50,7 +56,7 @@
 
 .content-header {
   box-shadow: none;
-  background-color: #655d8a;
+  background-color: var(--primary-header-color);
   width: 100%;
   padding: 0;
   display: flex;
@@ -114,7 +120,7 @@
 }
 
 .menu-icon-container:hover {
-  background-color: #807b99;
+  background-color: var(--secondary-header-color);
 }
 
 /* Utils */
@@ -134,7 +140,7 @@
 .modal-menu {
   position: absolute;
   visibility: hidden;
-  overflow: auto;
+  /* overflow: auto; */
 }
 
 .hide-modal-menu {
@@ -150,4 +156,12 @@
   right: 0;
   background-color: rgba(44, 43, 43, 0.5);
   visibility: visible;
+}
+
+.modal-sidebar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
