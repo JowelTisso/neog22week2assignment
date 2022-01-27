@@ -62,7 +62,21 @@
           </ul>
         </nav>
       </aside>
-      <main>Snackbar coming soon</main>
+      <main>
+        <div class="demo-btn-container">
+          <button id="btn-leading" class="btn-sm">Leading</button>
+          <button id="btn-baseline" class="btn-sm">Baseline</button>
+          <button id="btn-stacked" class="btn-sm">Stacked</button>
+        </div>
+        <div id="snackbar" class="snackbar">
+          <p id="snackbar-msg" class="snackbar-msg">
+            Can't send photo. Retry in 5 seconds.
+          </p>
+          <button class="snackbar-action-btn">RETRY</button>
+          <span id="sb-close-btn" class="snackbar-close-btn">X</span>
+        </div>
+      </main>
     </div>
+    <script src="snackbar.js"></script>
   </body>
 </html>

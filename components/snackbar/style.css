@@ -1,0 +1,86 @@
+/* Generic */
+:root {
+  --primary-color: #334155;
+  --secondary-color: #f8fafc;
+  --cta-color: #a78bfa;
+  --primary-color-2x: #64748b;
+}
+
+/* Container */
+.snackbar {
+  background-color: var(--primary-color);
+  width: 35rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  position: fixed;
+  bottom: 2rem;
+  flex-wrap: wrap;
+  visibility: hidden;
+}
+
+.sb-leading {
+  left: 2rem;
+}
+
+.sb-msg-stacked {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+/* Elements */
+.snackbar-action-btn {
+  margin-left: auto;
+  background-color: transparent;
+  border: 0;
+  font-weight: bold;
+  color: var(--cta-color);
+  padding: 0.8rem 1.8rem;
+  border-radius: 5px;
+}
+
+.snackbar-action-btn:hover {
+  background-color: var(--primary-color-2x);
+}
+
+.snackbar-close-btn {
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.8rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.snackbar-close-btn:hover {
+  background-color: var(--primary-color-2x);
+}
+
+.hide-snackbar {
+  visibility: hidden;
+}
+
+.show-snackbar {
+  visibility: visible;
+}
+
+.btn-sm {
+  background-color: var(--primary-text-color);
+  color: var(--secondary-text-color);
+  border: 0;
+  padding: 0.6rem 1.5rem;
+  border-radius: 5px;
+  margin: 1rem 5rem;
+}
+
+/* Typography */
+
+.snackbar-msg {
+  color: var(--secondary-color);
+  font-size: 1.3rem;
+}
