@@ -1,8 +1,8 @@
 /* Generic */
 
 :root {
-  --primary-header-color: #655d8a;
-  --secondary-header-color: #807b99;
+  --primary-header-color: #24a19c;
+  --secondary-header-color: #24ada9;
 }
 
 /* Permanent Drawer */
@@ -52,16 +52,17 @@
   font-weight: bold;
 }
 
-/* Typography */
-
 .content-header {
   box-shadow: none;
   background-color: var(--primary-header-color);
   width: 100%;
+  height: 6rem;
   padding: 0;
   display: flex;
   align-items: center;
 }
+
+/* Typography */
 
 .header-title-dr {
   color: var(--secondary-text-color);
