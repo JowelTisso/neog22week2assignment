@@ -139,3 +139,13 @@ a:hover {
   display: flex;
   justify-content: center;
 }
+
+.mg-top-2x {
+  margin-top: 2rem;
+}
+.mg-top-5x {
+  margin-top: 5rem;
+}
+.mg-top-7x {
+  margin-top: 7rem;
+}

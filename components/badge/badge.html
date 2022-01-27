@@ -64,7 +64,39 @@
           </ul>
         </nav>
       </aside>
-      <main>Badge coming soon</main>
+      <main>
+        <div class="container">
+          <p class="badge-container plain-text">
+            Text with a badge
+            <span class="badge">4</span>
+          </p>
+          <p class="badge-container plain-text mg-top-2x">
+            Text with large badge
+            <span class="badge bd-lg">1</span>
+          </p>
+          <p class="plain-text mg-top-2x">
+            Button with a badge on the left
+            <button class="badge-container btn-sm">
+              Action
+              <span class="badge bd-left bd-warning">8</span>
+            </button>
+          </p>
+          <p class="plain-text mg-top-2x">
+            Button toggles badge visibility
+            <button id="btn-hide" class="badge-container btn-sm">
+              Hide
+              <span id="badge-icon" class="badge bd-sm">7</span>
+            </button>
+          </p>
+          <p class="plain-text mg-top-2x">
+            Icon with a badge
+            <i class="badge-container fas fa-home">
+              <span class="badge bd-sm bd-danger">15</span>
+            </i>
+          </p>
+        </div>
+      </main>
     </div>
+    <script src="badge.js"></script>
   </body>
 </html>

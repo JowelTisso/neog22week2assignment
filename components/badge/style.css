@@ -1,0 +1,84 @@
+/* Generic */
+:root {
+  --primary-badge-bg-color: #0ea5e9;
+  --warning-badge-bg-color: #f97316;
+  --danger-badge-bg-color: #ef4444;
+}
+
+/* Container */
+
+.container {
+  width: 50rem;
+  background-color: rgb(248, 246, 246);
+  border-radius: 5px;
+  margin-top: 10rem;
+  padding: 3rem;
+  margin-left: -20rem;
+  border: 2px solid gray;
+}
+
+/* Elements */
+/* Badge */
+
+.badge-container {
+  position: relative;
+}
+
+.badge {
+  display: inline-block;
+  background-color: var(--primary-badge-bg-color);
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  border-radius: 50%;
+  padding: 2px;
+  color: var(--secondary-text-color);
+  position: absolute;
+  top: -1.4rem;
+  right: -1.6rem;
+  font-size: 1.3rem;
+}
+
+.bd-sm {
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+.bd-lg {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.bd-warning {
+  background-color: var(--warning-badge-bg-color);
+}
+
+.bd-danger {
+  background-color: var(--danger-badge-bg-color);
+}
+
+.bd-left {
+  right: 0;
+  left: -1.5rem;
+}
+
+.bd-hide {
+  display: none;
+}
+
+/* Button */
+.btn-sm {
+  background-color: var(--primary-text-color);
+  color: var(--secondary-text-color);
+  border: 0;
+  padding: 0.6rem 1.5rem;
+  border-radius: 5px;
+}
+
+/* Typography */
+
+.plain-text {
+  font-size: 1.7rem;
+  width: fit-content;
+}
