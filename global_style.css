@@ -20,6 +20,7 @@ html {
   --highlight-text-color: #24a19c;
   --dark-text-color: #1c1d25;
   --light-text-color: #515366;
+  --primary-bg-color: rgb(255, 255, 255);
 }
 
 /* Container */
@@ -148,4 +149,12 @@ a:hover {
 }
 .mg-top-7x {
   margin-top: 7rem;
+}
+
+.btn-sm {
+  background-color: var(--primary-text-color);
+  color: var(--secondary-text-color);
+  border: 0;
+  padding: 0.6rem 1.5rem;
+  border-radius: 5px;
 }

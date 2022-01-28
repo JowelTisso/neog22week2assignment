@@ -62,7 +62,73 @@
           </ul>
         </nav>
       </aside>
-      <main>Dialogs coming sson</main>
+      <main>
+        <div class="demo-btn-container">
+          <button id="btn-alert" class="btn-sm">Alert Dialog</button>
+          <button id="btn-simple" class="btn-sm">Simple Dialog</button>
+          <button id="btn-confirm" class="btn-sm">Confirm Dialog</button>
+        </div>
+
+        <!--Alert Dialog-->
+        <div id="dialog-backdrop" class="dialog-container hide-dialog">
+          <div class="dialog">
+            <p class="dialog-msg">Discard draft?</p>
+            <div class="dialog-btn-container">
+              <button class="dialog-btn">CANCEL</button>
+              <button class="dialog-btn">DISCARD</button>
+            </div>
+          </div>
+        </div>
+
+        <!--Simple Dialog-->
+        <div id="dialog-backdrop-simple" class="dialog-container hide-dialog">
+          <div class="dialog pd-left-3x wd-md">
+            <p class="dialog-msg font-bd">Simple dialog</p>
+            <div class="list-item">
+              <span class="icon-container">
+                <i class="fas fa-user fa-2x"></i>
+              </span>
+              <p class="list-item-title">User one</p>
+            </div>
+            <div class="list-item">
+              <span class="icon-container">
+                <i class="fas fa-user fa-2x"></i>
+              </span>
+              <p class="list-item-title">User one</p>
+            </div>
+            <div class="list-item">
+              <span class="icon-container">
+                <i class="fas fa-user fa-2x"></i>
+              </span>
+              <p class="list-item-title">User one</p>
+            </div>
+          </div>
+        </div>
+
+        <!--Confirm Dialog-->
+        <div id="dialog-backdrop-confirm" class="dialog-container show-dialog">
+          <div class="dialog pd-left-3x wd-md">
+            <p class="dialog-msg font-bd">Simple dialog</p>
+            <div class="list-item">
+              <input type="radio" class="radio-btn" />
+              <p class="list-item-title">User one</p>
+            </div>
+            <div class="list-item">
+              <input type="radio" class="radio-btn" />
+              <p class="list-item-title">User one</p>
+            </div>
+            <div class="list-item">
+              <input type="radio" class="radio-btn" />
+              <p class="list-item-title">User one</p>
+            </div>
+            <div class="dialog-btn-container mg-top-2x">
+              <button class="dialog-btn">CANCEL</button>
+              <button class="dialog-btn">DISCARD</button>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
+    <script src="dialogs.js"></script>
   </body>
 </html>

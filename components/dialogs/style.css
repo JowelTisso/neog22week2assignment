@@ -1,0 +1,107 @@
+/* Generic */
+
+.btn-sm {
+  margin: 1rem 5rem;
+}
+
+/* Container */
+
+.dialog-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(44, 43, 43, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* visibility: hidden; */
+}
+
+/* Element */
+.dialog {
+  background-color: var(--primary-bg-color);
+  padding: 2rem 2rem;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 1px rgb(107, 106, 106);
+  width: 30rem;
+  min-height: 10rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.dialog-msg {
+  font-size: 1.8rem;
+  color: var(--light-text-color);
+}
+
+.dialog-btn-container {
+  margin: auto 0 0 auto;
+}
+
+.dialog-btn {
+  background-color: transparent;
+  border: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--highlight-text-color);
+  padding: 1rem 1.2rem;
+  border-radius: 5px;
+}
+
+.dialog-btn:hover {
+  background-color: var(--primary-text-color);
+}
+
+.show-dialog {
+  visibility: visible;
+}
+
+.hide-dialog {
+  visibility: hidden;
+}
+
+.icon-container {
+  background-color: rgb(187, 184, 184);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.list-item-title {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  color: var(--light-text-color);
+}
+
+.radio-btn {
+  width: 2rem;
+  height: 2rem;
+}
+
+.pd-left-5x {
+  padding-left: 3rem;
+}
+
+.wd-md {
+  width: 25rem;
+}
+
+.font-bd {
+  font-weight: 800;
+}
+
+.mg-top-2x {
+  margin-top: 2rem;
+}

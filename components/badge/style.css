@@ -68,13 +68,6 @@
 }
 
 /* Button */
-.btn-sm {
-  background-color: var(--primary-text-color);
-  color: var(--secondary-text-color);
-  border: 0;
-  padding: 0.6rem 1.5rem;
-  border-radius: 5px;
-}
 
 /* Typography */
 
