@@ -64,7 +64,67 @@
           </ul>
         </nav>
       </aside>
-      <main>Tabs coming soon</main>
+      <main>
+        <div class="wrapper">
+          <!-- Fixed Tabs -->
+          <section class="tab-section">
+            <p class="tab-title">Fixed Tabs</p>
+            <div class="card-container">
+              <div class="tab-container">
+                <button id="tab-1" class="tab tab-selected">Tab 1</button>
+                <button id="tab-2" class="tab">Tab 2</button>
+                <button id="tab-3" class="tab">Tab 3</button>
+              </div>
+              <div id="content-1" class="content-container content-active">
+                <img
+                  class="content-img"
+                  src="https://picsum.photos/300/350"
+                  alt="random image"
+                />
+              </div>
+              <div id="content-2" class="content-container">
+                <img
+                  class="content-img"
+                  src="https://picsum.photos/300/351"
+                  alt="random image"
+                />
+              </div>
+              <div id="content-3" class="content-container">
+                <img
+                  class="content-img"
+                  src="https://picsum.photos/300/352"
+                  alt="random image"
+                />
+              </div>
+            </div>
+          </section>
+
+          <!-- Scrollable tabs -->
+          <section class="tab-section">
+            <p class="tab-title">Scrollable Tabs</p>
+            <div class="card-container">
+              <div class="tab-container">
+                <button id="scroll-tab-1" class="tab-scroll tab-selected">
+                  Tab 1
+                </button>
+                <button id="scroll-tab-2" class="tab-scroll">Tab 2</button>
+                <button id="scroll-tab-3" class="tab-scroll">Tab 3</button>
+                <button id="scroll-tab-4" class="tab-scroll">Tab 4</button>
+                <button id="scroll-tab-5" class="tab-scroll">Tab 5</button>
+                <button id="scroll-tab-6" class="tab-scroll">Tab 6</button>
+              </div>
+              <div id="content-1" class="content-container content-active">
+                <img
+                  class="content-img"
+                  src="https://picsum.photos/300/350"
+                  alt="random image"
+                />
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
     </div>
+    <script src="tabs.js"></script>
   </body>
 </html>
